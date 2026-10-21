@@ -15,7 +15,7 @@ create table company_dim(
 
 create table skill_dim(
     skill_id integer primary key,
-    skill varchar,
+    skills varchar,
     type varchar
 );
 
