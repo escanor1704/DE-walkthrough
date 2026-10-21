@@ -1,4 +1,4 @@
--- duckdb dw_build.duckdb -c 
+-- duckdb dw_build.duckdb -c ".read code_build.sql"
 
 -- 1st
 .read 1_create_tables.sql
