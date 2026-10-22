@@ -5,3 +5,6 @@
 
 -- 2nd
 .read 2_load_schema.sql
+
+-- 3rd
+.read 3_flat_mart.sql
