@@ -11,3 +11,9 @@
 
 -- 4th
 .read 4_create_skill.sql
+
+-- 5th
+.read 5_create_priority.sql
+
+-- 6th
+.read 6_update_priority.sql
