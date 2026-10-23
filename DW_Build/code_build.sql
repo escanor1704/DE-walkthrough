@@ -8,3 +8,6 @@
 
 -- 3rd
 .read 3_flat_mart.sql
+
+-- 4th
+.read 4_create_skill.sql
