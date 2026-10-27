@@ -47,6 +47,8 @@ create table skills_job_dim(
     foreign key (job_id) references  job_postings_fact(job_id)
 );
 
-select table_name
-from information_schema.tables
-where table_schema = 'main';
+SELECT table_name
+FROM information_schema.tables
+WHERE table_catalog = 'dw_build'
+  AND table_schema  = 'main'
+ORDER BY table_name;
